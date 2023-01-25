@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 63.5%;
+    color: #ffff;
+    scroll-behavior: smooth;
+
+
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: black;
+    position: relative;
+
+    
+}
+
+.nav{
+    height: 4rem;
+    background: linear-gradient(to right, #ff6f91, #ff7887, #ff817e, #ff8c76, #ff9671);
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+
+}
+
+
+.emojis{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+
+}
+
+.emoji{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 5rem;
+}
+
+.emoji:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.results{
+
+    text-align: center;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.result ,h1{
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+span{
+    font-size: 2rem;
+    color: rgba(75, 73, 73, 0.636);
+}
+
+
+.selected-emoji{
+    font-size: 3rem;
+    opacity: .5;
+    margin-bottom: 1.5rem;
+
+}
+
+.selected-emoji.winner{
+    font-size: 4rem;
+    opacity: 1;
+}
+
+
+/* .footer{
+    height: 4rem;
+    width: 100%;
+    background-color: black;
+    color: #ffff;
+    position: static;
+    margin-top: 47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.fa{
+   color: #ffff; 
+} */
+
